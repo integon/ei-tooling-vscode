@@ -144,12 +144,19 @@
                         <xs:simpleType>
                             <xs:restriction base="xs:string">
                                 <xs:enumeration value="get" />
+                                <xs:enumeration value="GET" />
                                 <xs:enumeration value="post" />
+                                <xs:enumeration value="POST" />
                                 <xs:enumeration value="patch" />
+                                <xs:enumeration value="PATCH" />
                                 <xs:enumeration value="delete" />
+                                <xs:enumeration value="DELETE" />
                                 <xs:enumeration value="put" />
+                                <xs:enumeration value="PUT" />
                                 <xs:enumeration value="options" />
+                                <xs:enumeration value="OPTIONS" />
                                 <xs:enumeration value="head" />
+                                <xs:enumeration value="HEAD" />
                             </xs:restriction>
                         </xs:simpleType>
                     </xs:attribute>
