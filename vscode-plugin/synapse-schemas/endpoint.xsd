@@ -161,7 +161,7 @@
                 <xs:complexType>
                     <xs:complexContent>
                         <xs:extension base="DefaultEndpoint">
-                            <xs:attribute name="uri" type="xs:anyURI" use="required" />
+                            <xs:attribute name="uri" type="xs:string" use="required" />
                         </xs:extension>
                     </xs:complexContent>
                 </xs:complexType>
